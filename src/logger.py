@@ -26,5 +26,3 @@ StreamHandler.setFormatter(formatter)
 logger.addHandler(StreamHandler)
 
 
-if __name__ == '__main__':
-    logger.info('Logging has started')
